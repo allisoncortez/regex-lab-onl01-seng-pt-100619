@@ -11,7 +11,7 @@ def starts_with_a_vowel?(word)
 def words_starting_with_un_and_ending_with_ing(text)
   # text.scan(/un\w*ing\b/)
   
-  text.scan(/un\w+ing\b/)
+  text.scan(/un\w+ing\b/i)
   
   # '\b' finds/matches the pattern at the beginning or end of each word.
   
