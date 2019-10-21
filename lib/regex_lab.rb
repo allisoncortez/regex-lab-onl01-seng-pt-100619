@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
 
- word.match? /\A[aeiou]/i
+ word.match? (/\A[aeiou]/i)
  
 # explanation:It matches the beginning of the string \A followed by a vowel [aeiou] in a case-insensitive manner i returning a bool word.match?
 
