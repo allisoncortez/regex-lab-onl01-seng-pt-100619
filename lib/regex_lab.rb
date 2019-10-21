@@ -18,8 +18,7 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
-  text.count(/\b\w{5}\b/)
-  # text.count(^\w{12}$	)
+  text.count(/\b[a-z]{5}\b/)
 
 end
 
